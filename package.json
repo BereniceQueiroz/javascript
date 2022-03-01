@@ -4,6 +4,8 @@
   "description": "Curso javascript ES6/ES7/ES8",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint src/*.js",
+    "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
